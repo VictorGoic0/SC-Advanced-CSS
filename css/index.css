@@ -173,7 +173,7 @@ a {
   padding: 10px 0;
   display: flex;
   justify-content: center;
-  background-color: #f1f1f1;
+  background-color: #F6F6F6;
 }
 .nav-container nav {
   width: 80%;
@@ -193,7 +193,7 @@ a {
   align-items: flex-end;
 }
 .nav-container nav div a {
-  color: #23293b;
+  color: #454A59;
   text-decoration: none;
   font-weight: bold;
 }
@@ -206,6 +206,9 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.home .intro .main-header {
+  border-radius: 6px;
 }
 .home .intro h2 {
   padding: 15px;
@@ -248,6 +251,20 @@ footer {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  height: 40px;
+  width: 120px;
+  background-color: #23293B;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid #23293B;
+  border-radius: 6px;
+}
+.home .walk .walk-text .btn:hover {
+  cursor: pointer;
+  color: #23293B;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
