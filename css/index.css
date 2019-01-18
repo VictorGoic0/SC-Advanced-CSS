@@ -1,3 +1,13 @@
+@keyframes textanimation {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -166,6 +176,11 @@ a {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-container,
+.container {
+  animation-name: textanimation;
+  animation-duration: 0.5s;
 }
 .nav-container {
   max-width: 1000px;
